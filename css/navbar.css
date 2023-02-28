@@ -41,3 +41,8 @@ h1 {
   color: rgb(97, 68, 68);
   font-size: 60px;
 }
+
+h2 {
+  display: flex;
+  color: aqua;
+}

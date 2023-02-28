@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: rgb(150, 148, 148);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: rgb(150, 148, 148);
+}
+.logo img {
+  width: 150px;
+  height: 100px;
+}
+
+body {
+  background-color: rgb(58, 55, 55);
+}
+.pageLinks a {
+  color: rgb(139, 58, 58);
+}
+
+.nav {
+  display: flex;
+  gap: 2em;
+  font-size: 25px;
+}
+
+h1 {
+  color: rgb(139, 58, 58);
+  font-size: 60px;
+}
+/* Above this is the navbar/shared atributes */
