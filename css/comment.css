@@ -42,3 +42,11 @@ h1 {
   font-size: 60px;
 }
 /* Above this is the navbar/shared atributes */
+
+h2 {
+  display: flex;
+  color: rgb(139, 58, 58);
+  font-size: 60px;
+  font-weight: bolder;
+  justify-content: center;
+}
