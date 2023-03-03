@@ -43,6 +43,17 @@ h1 {
 }
 /* Above this is the navbar/shared atributes */
 
+.contactUs {
+  margin: 12px;
+  padding: 10px;
+}
+#message {
+  display: flex;
+  height: 50px;
+
+  justify-content: flex-start;
+}
+
 h2 {
   display: flex;
   color: rgb(139, 58, 58);
@@ -50,17 +61,19 @@ h2 {
   font-weight: bolder;
   justify-content: center;
 }
-.contactInfo {
+.aboutUs {
   display: flex;
+  margin: 36px;
+  padding: 12;
 }
 
-.contactInfo p {
+.aboutUs p {
   font-size: larger;
   color: rgb(255, 245, 245);
   max-width: 1400px;
 }
 
-.contactInfo img {
+.aboutUs img {
   display: flex;
   max-width: 400px;
   max-height: 350px;
