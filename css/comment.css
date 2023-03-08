@@ -58,3 +58,24 @@ p {
   font-weight: bolder;
   color: rgb(255, 245, 245);
 }
+
+.addComment {
+  margin: 25px;
+  justify-content: space-between;
+}
+.addComment input {
+  display: flex;
+}
+
+.addComment label {
+  display: flex;
+  color: rgb(255, 245, 245);
+}
+
+.radioBtn label {
+  display: inline;
+}
+
+.radioBtn input {
+  display: inline;
+}

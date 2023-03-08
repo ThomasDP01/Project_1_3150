@@ -80,3 +80,7 @@ h2 {
   max-height: 350px;
   justify-content: center;
 }
+
+.contactUs label {
+  color: rgb(255, 245, 245);
+}

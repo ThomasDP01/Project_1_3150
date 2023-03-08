@@ -35,19 +35,42 @@
         <h2>Add Your Comment</h2>
         <hr>
         <form action="post"></form>
+        <p>Would you like to write a tip for others or review a game?</p>
         <div class="addComment">  
-          <p>Would you like to write a tip for others or review a game?</p>
-          <input type="radio" name="tip/review" id="tip" value="tip"/>
-          <label for="tip"> tip </label>
-          <input type="radio" name="tip/review" id="review" value="review"/>
-          <label for="review"> review </label>
+          <form>
+            <div class="radioBtn">
+
+              
+              <input type="radio" name="tip/review" id="tip" value="tip"/>
+              <label for="tip"> tip </label>
+              <input type="radio" name="tip/review" id="review" value="review"/>
+              <label for="review"> review </label>
+            </div>
+            <br>
+            <label for="game">What game are you writing about? </label>
+            <input type="text" id="game"/>
+            <br>
+            <br>
+            <label for="name">Enter your name </label>
+            <input type="text" id="name"/>
+            <br>
+            <br>
+            <label for="email">Enter your email  </label>
+            <input type="text" id="email"/>
+            <br>
+            <br>
+            
+            <label for="comment">What is your comment? </label>
+            <input type="text" id="comment" size="50"/>
+          </form>
+          <input type="submit" value="submit">
         </div>
-
-
+          
+          
+          
+          
+        </main>
         
-
-      </main>
-
       <footer id="footer">
         
       </footer>
