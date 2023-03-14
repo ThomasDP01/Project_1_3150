@@ -60,8 +60,16 @@ p {
 }
 
 .addComment {
+  margin-left: 35%;
+  max-width: 30%;
   margin: 25px;
-  justify-content: space-between;
+  border: 5px solid;
+  border-color: rgb(46, 44, 44);
+  border-radius: 10px;
+}
+input {
+  background-color: rgb(17, 16, 16);
+  color: rgb(255, 246, 246);
 }
 .addComment input {
   display: flex;
