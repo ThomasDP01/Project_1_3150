@@ -63,3 +63,21 @@ h2 {
   /* padding-left: 25%;
   padding-right: 23%; */
 }
+
+.reviews {
+  border: 3px solid;
+  margin: 10px 15px 15px 12px;
+  justify-content: left;
+}
+
+span {
+  font-size: larger;
+  margin: 3px 10px 2px 0px;
+  display: flex;
+  color: rgb(180, 76, 76);
+}
+
+p {
+  font-size: large;
+  color: rgb(255, 245, 245);
+}

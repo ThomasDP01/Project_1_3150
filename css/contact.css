@@ -92,6 +92,11 @@ h2 {
   border-radius: 10px;
 }
 
+p {
+  font-size: larger;
+  color: rgb(255, 245, 245);
+  max-width: 1400px;
+}
 /* .contactUs label {
   color: rgb(255, 245, 245);
 } */

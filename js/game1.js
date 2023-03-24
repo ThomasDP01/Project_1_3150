@@ -1,33 +1,36 @@
 const btn1 = document.getElementById("selecter1");
 const btn2 = document.getElementById("selecter2");
 const reviews = document.getElementById("reviews");
+const reviewSection = document.getElementById("reviewSection");
 const tips = document.getElementById("tips");
+const tipSection = document.getElementById("tipSection");
+
 let rClicked = false;
 let tClicked = false;
 btn1.addEventListener("click", (e) => {
   if (rClicked == false) {
-    reviews.classList.remove("unseen");
+    reviewSection.classList.remove("unseen");
     rClicked = true;
-    if (tips.classList.contains("unseen") == false) {
-      tips.classList.add("unseen");
+    if (tipSection.classList.contains("unseen") == false) {
+      tipSection.classList.add("unseen");
       tClicked = false;
     }
   } else {
-    reviews.classList.add("unseen");
+    reviewSection.classList.add("unseen");
     rClicked = false;
   }
 });
 
 btn2.addEventListener("click", (e) => {
   if (tClicked == false) {
-    tips.classList.remove("unseen");
+    tipSection.classList.remove("unseen");
     tClicked = true;
-    if (reviews.classList.contains("unseen") == false) {
-      reviews.classList.add("unseen");
+    if (reviewSection.classList.contains("unseen") == false) {
+      reviewSection.classList.add("unseen");
       rClicked = false;
     }
   } else {
-    tips.classList.add("unseen");
+    tipSection.classList.add("unseen");
     tClicked = false;
   }
 });
@@ -44,3 +47,32 @@ console.log(game);
 console.log(uName);
 console.log(email);
 console.log(comment);
+
+const disName = document.createElement("span");
+const inpName = document.createTextNode(uName);
+
+const disMail = document.createElement("span");
+const inpMail = document.createTextNode(email);
+
+const disComment = document.createElement("p");
+const inpComment = document.createTextNode(comment);
+
+const container = document.createElement("div");
+container.classList.add("reviews");
+container.appendChild(disName);
+container.appendChild(disMail);
+container.appendChild(disComment);
+
+disName.appendChild(inpName);
+disMail.appendChild(inpMail);
+disComment.appendChild(inpComment);
+switch (tipReview) {
+  case "review":
+    reviews.appendChild(container);
+
+    break;
+
+  case "tip":
+    tips.appendChild(container);
+    break;
+}
