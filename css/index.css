@@ -96,3 +96,6 @@ h2 {
   font-size: 60px;
   font-weight: bolder;
 }
+.recentlyAdded li :hover {
+  background-color: rgba(46, 45, 45, 0.089);
+}

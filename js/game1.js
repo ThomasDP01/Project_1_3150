@@ -31,3 +31,16 @@ btn2.addEventListener("click", (e) => {
     tClicked = false;
   }
 });
+
+// add comments
+
+let tipReview = localStorage.getItem("tipReview");
+let game = localStorage.getItem("game");
+let uName = localStorage.getItem("name");
+let email = localStorage.getItem("email");
+let comment = localStorage.getItem("comment");
+console.log(tipReview);
+console.log(game);
+console.log(uName);
+console.log(email);
+console.log(comment);

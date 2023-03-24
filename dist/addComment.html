@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../js/comment.js" defer></script>
     <link rel="stylesheet" href="../css/comment.css" />
     <title>Add Comment</title>
   </head>
@@ -34,36 +35,37 @@
       <main id="landingMain">
         <h2>Add Your Comment</h2>
         <hr>
-        <form action="post"></form>
+        <form method="post"></form>
         <p>Would you like to write a tip for others or review a game?</p>
         <div class="addComment">  
-          <form>
+          <form id="info">
             <div class="radioBtn">
 
               
-              <input type="radio" name="tip/review" id="tip" value="tip"/>
+              <input type="radio" name="tipReview" id="tip" value="tip"/>
               <label for="tip"> tip </label>
-              <input type="radio" name="tip/review" id="review" value="review"/>
+              <input type="radio" name="tipReview" id="review" value="review"/>
               <label for="review"> review </label>
             </div>
             <br>
             <label for="game">What game are you writing about? </label>
-            <input type="text" id="game"/>
+            <input type="text" name="game"/>
             <br>
             <br>
             <label for="name">Enter your name </label>
-            <input type="text" id="name"/>
+            <input type="text" name="name"/>
             <br>
             <br>
             <label for="email">Enter your email  </label>
-            <input type="text" id="email"/>
+            <input type="text" name="email"/>
             <br>
             <br>
             
             <label for="comment">What is your comment? </label>
-            <input type="text" id="comment" size="25"/>
+            <input type="text" name="comment" size="25"/>
+            <br>
+            <input type="submit" value="submit">
           </form>
-          <input type="submit" value="submit">
         </div>
           
           
